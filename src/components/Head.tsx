@@ -30,17 +30,16 @@ export default function Head() {
                 <NavigationMenuTrigger className="text-[18px]/[32px] font-poppins font-medium">Products</NavigationMenuTrigger>
 
                 <NavigationMenuContent className="text-[14px]/[28px] font-poppins font-regular w-75">
-                  <ul className="">
-                    <li>
+                  <ul className="w-150 grid gap-2 p-4">
+                    <li className="text-[14px]/[28px] font-poppins font-regular">
                       <Link href="/transformerIQ">Transformer Monitoring System</Link>
                     </li>
-                    <li>
+                    <li className="text-[14px]/[28px] font-poppins font-regular">
                       <Link href="/busbarIQ">Busbar Monitoring System</Link>
                     </li>
-                    <li>
+                    <li className="text-[14px]/[28px] font-poppins font-regular">
                       <Link href="/emsIQ">Energy Monitoring System</Link>
                     </li>
-                    
                   </ul>
                 </NavigationMenuContent>
               </NavigationMenuItem>
@@ -56,11 +55,11 @@ export default function Head() {
                 <NavigationMenuTrigger className="text-[18px]/[32px] font-poppins font-medium">Media</NavigationMenuTrigger>
 
                 <NavigationMenuContent className="text-[14px]/[28px] font-poppins font-regular w-75">
-                  <ul className="grid gap-2 p-4 w-50">
-                    <li>
+                  <ul className="grid gap-2 p-4 w-150 left-10 right-auto position-absolute">
+                    <li className="text-[14px]/[28px] font-poppins font-regular">
                       <Link href="/webinar">Webinars</Link>
                     </li>
-                    <li>
+                    <li className="text-[14px]/[28px] font-poppins font-regular">
                       <Link href="/blog">Blogs</Link>
                     </li>
                   </ul>
@@ -72,7 +71,7 @@ export default function Head() {
             </NavigationMenuList>
           </NavigationMenu>
         </div>
-        <div className="w-30%">
+        <div className="w-30% font-poppins font-medium text-[18px]/[32px] text-[#1A1A1A]">
           <Link href={"#"}>Get In Touch</Link>
         </div>
       </div>
