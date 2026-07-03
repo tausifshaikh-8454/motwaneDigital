@@ -72,7 +72,7 @@ export default function Head() {
           </NavigationMenu>
         </div>
         <div className="w-30% font-poppins font-medium text-[16px]/[32px] text-[#1A1A1A]">
-          <Link href={"#"} className="px-5 py-2.5 bg-[#0D6CB3] text-white">Get In Touch</Link>
+          <Link href={"#"} className="px-5 py-2.5 bg-[#0D6CB3] font-poppins font-medium text-white">Get In Touch</Link>
         </div>
       </div>
     </header>
