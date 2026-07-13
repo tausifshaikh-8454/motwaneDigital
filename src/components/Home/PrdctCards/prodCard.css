@@ -1,0 +1,10 @@
+
+.mainCard:hover .infoDesc{
+    transform: translateY(-110) !important;
+    opacity: 1;
+}
+
+.mainCard:hover .serviceLink{
+    display: block;
+    transform: translateY(-110) !important;
+}
